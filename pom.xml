@@ -10,7 +10,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>March2023POMSeries</name>
-	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
 	<properties>
@@ -125,6 +124,13 @@
 
 
 				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectj.version}</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
