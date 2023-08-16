@@ -11,54 +11,42 @@
 			class-name="com.qa.opencart.listeners.TestAllureListener" />
 		<listener
 			class-name="com.qa.opencart.listeners.AnnotationTransformer" />
-
-		<listener
-			class-name="com.qa.opencart.listeners.ItextPdfListener" />
-
+			
+			<listener
+			class-name="com.qa.opencart.listeners.ItextPdfListener" />	
+			
 	</listeners>
 
 	<test name="Login Page Test">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="113" />
-		<parameter name="testname" value="LoginPageTest" />
-
-
+	
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
 	<test name="Accounts Page Test">
-		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="111" />
-		<parameter name="testname" value="AccountsPage Test" />
-		
-
+			<parameter name="browser" value="chrome" />
+	
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
 
 	<test name="ProductInfo Page Test">
-		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="79" />
-		<parameter name="testname" value="Product Info Page Test" />
-		
-
+			<parameter name="browser" value="chrome" />
+	
 		<classes>
 			<class name="com.qa.opencart.tests.ProductInfoTest" />
 		</classes>
 	</test>
 
 
-	<test name="Register Page Test">
-	<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="90" />
-		<parameter name="testname" value="Register Page Test" />
-		<classes>
-			<class name="com.qa.opencart.tests.RegisterPageTest" />
-		</classes>
-	</test>
+	<!-- <test name="Register Page Test">
+	<classes>
+		<class name="com.qa.opencart.tests.RegisterPageTest" />
+	</classes>
+</test> -->
 
 
 
